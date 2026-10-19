@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="weather-app">
+    <header class="header">
+      <div class="logo">☁ WeatherNow</div>
+
+      <div class="search">
+        <input id="cityInput" type="text" placeholder="Search city..." />
+
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+
+    <section class="main-weather">
+      <div class="weather-info">
+        <div class="location">📍 Surat, India</div>
+
+        <div class="date">Friday, September 18</div>
+
+        <div class="temperature">28°</div>
+
+        <div class="condition">Partly Cloudy</div>
+      </div>
+
+      <img class="weather-icon" src="//cdn.weatherapi.com/weather/64x64/day/353.png" alt="" />
+    </section>
+
+    <section class="details">
+      <div class="detail-card">
+        <div class="detail-icon">💧</div>
+        <div class="detail-title">Humidity</div>
+        <div class="detail-value">68%</div>
+      </div>
+
+      <div class="detail-card">
+        <div class="detail-icon">💨</div>
+        <div class="detail-title">Wind</div>
+        <div class="detail-value">14 km/h</div>
+      </div>
+
+      <div class="detail-card">
+        <div class="detail-icon">🌡️</div>
+        <div class="detail-title">Feels Like</div>
+        <div class="detail-value">30°</div>
+      </div>
+
+      <div class="detail-card">
+        <div class="detail-icon">☀️</div>
+        <div class="detail-title">UV Index</div>
+        <div class="detail-value">6</div>
+      </div>
+    </section>
+  </div>
+</body>
+<script src="javascript.js"></script>
+</html>
